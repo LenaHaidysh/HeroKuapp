@@ -21,7 +21,7 @@ public class CheckboxesTest {
         WebElement firstCheckbox = browser.findElements(By.cssSelector("[type=checkbox]")).get(0);
         // проверить, что первый чекбокс unchecked
         assertFalse(firstCheckbox.isSelected());
-        //отметить первый чекбокс
+        //отметить первый чекбоксc
         firstCheckbox.click();
         // проверить что первый чекбокс checked
         assertTrue(firstCheckbox.isSelected());
