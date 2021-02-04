@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+</style>
+</head>
+<body>
+
+<h2>Hello,world</h2>
+<p>I present you information about my favourite animals</p>
+
+<table style="width:80%">
+  <caption>My favourite animals</caption>
+  <tr>
+    <th>Animal</th>
+    <th>Name</th>
+  </tr>
+  <tr>
+    <td>Cat</td>
+    <td>Tom</td>
+  </tr>
+  <tr>
+    <td>Dog</td>
+    <td>Rex</td>
+  </tr>
+</table>
+
+<h2>Choose your favourite animal</h2>
+
+<form action="/action_page.php">
+  <input type="checkbox" id="animal1" name="animal1" value="Cat">
+  <label for="animal1"> I like a cat</label><br>
+  <input type="checkbox" id="animal2" name="animal2" value="Dog">
+  <label for="animal2"> I like a dog</label><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<h1>Choose car for your animal</h1>
+
+<form action="/action_page.php">
+  <label for="cars">Choose a car:</label>
+  <select name="cars" id="cars">
+    <option value="bmw">Bmw</option>
+    <option value="mersedes">Mersedes</option>
+    <option value="audi">Audi</option>
+  </select>
+  <br><br>
+  <button class="button button1" name="Button">Click me</button>
+</form>
+
+<h1>My puppy</h1>
+
+<img src="https://kor.ill.in.ua/m/1200x0/2218627.jpg" alt="My puppy" width="300" height="300">
+
+<h1>More info</h1>
+<a href="https://www.proplan.ru/dog/article/">Learn more information!</a>
+
+</body>
+</html>
+

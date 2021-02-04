@@ -17,7 +17,7 @@ public class DropdownTest {
     public void DropdownFilling() {
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
         WebDriver browser = new ChromeDriver();
-        browser.manage().window().maximize();//нужно в каждом проекте, на весь экран;
+        browser.manage().window().maximize();//нужно в каждом проекте, на весь экранн;
         browser.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         browser.get("http://the-internet.herokuapp.com/dropdown");
         Select dropdown = new Select(browser.findElement(By.id("dropdown")));
