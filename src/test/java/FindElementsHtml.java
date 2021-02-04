@@ -16,7 +16,7 @@ public class FindElementsHtml {
     public void findElements() {
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
         WebDriver browser = new ChromeDriver();
-        browser.manage().window().maximize();//нужно в каждом проекте, на весь экран;
+        browser.manage().window().maximize();//нужно в каждом проекте, на весь экран1;
         browser.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         browser.get("file:///D:/wmn/test/MyHTML.html");
         WebElement firstCheckbox = browser.findElements(By.cssSelector("[type=checkbox]")).get(0);
